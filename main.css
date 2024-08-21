@@ -1,0 +1,204 @@
+body{
+    background-color: #000000;
+}
+.navbar{
+    background-color: #1B1B1B;
+    padding: 20px;
+    text-align: center;
+    color: #9C9C9C;
+    font-family: IBM Plex Mono;
+    justify-content: space-between; 
+    border-bottom: 2em;
+    max-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.nav-link {
+    float: left;
+    display: block;
+    color: #9C9C9C;
+    text-align: center;
+    padding: 4px 50px;
+    text-decoration: none;
+    justify-content: center;
+}
+h1{
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 60px;
+}
+p{
+    color: #9C9C9C;
+    font-family: IBM Plex Mono;
+    font-size: 25px;
+}
+.button{
+    display: inline-block;
+    font-family: IBM Plex Mono;
+    padding: 20px 45px;
+    margin: 10px;
+    border: 2px solid #3F8E00;
+    border-radius: 5px;
+    background-color: #3F8E00; 
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.logo{
+    max-width: 100%; 
+    height: auto;
+}
+.left-col{
+    margin: 50px;
+    padding: 10px 2px;
+    width: 700px;
+
+}
+.right-col{
+    width: 700px;
+}
+.p1{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    margin: 50px;
+}
+.bottom{
+    align-items: center;
+    p{
+        text-align: center;
+    }
+    img{
+        align-items: center;
+    }
+}
+.img-bottom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.p2{
+    background-color: #FFFFFF;
+    text-align: center;
+    h1{
+      color: #000000;  
+      font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.img11{
+    max-width: 100%; 
+    height: auto;
+}
+.expertise{
+    margin: 50px;
+    padding: 10px 2px;
+    width: 700px;
+
+}
+.img1{
+    width: 700px;
+}
+.mo{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: IBM Plex Mono;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding: 20px 150px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.button1{
+    display: inline-block;
+    font-family: IBM Plex Mono;
+    padding: 20px 200px;
+    margin: 0px;
+    border: 2px solid #3F8E00;
+    border-radius: 5px;
+    background-color: #3F8E00; 
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s, border-color 0.3s;
+    max-width: 70px;
+}
+.navbar1{
+    background-color: #1B1B1B;
+    padding: 5px;
+    text-align: center;
+    color: #9C9C9C;
+    font-family: IBM Plex Mono;
+    justify-content: space-between; 
+    border-bottom: 2em;
+}
+.p3{
+    h1{
+        color: #ffffff;  
+        font-size: 40px;
+        text-align: center;
+      }
+      p{
+          font-size: 20px;
+          text-align: center;
+      }
+}
+.ip{
+    width: 300px;
+        height: 40px;
+        font-size: 18px; 
+        padding: 10px;
+        box-sizing: border-box;
+}
+.mess {
+    width: 100%; 
+    height: 300px;  
+    font-size: 18px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border: 2px solid; 
+    border-radius: 5px;
+}
+
+.form {
+    width: 100%;
+    max-width: 60px; /* Set a maximum width for the form */
+    padding: 20px;
+    margin: 0 auto; /* Center the form horizontally */
+    border-radius: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.ip {
+    width: 100%; /* Make inputs full width */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc; /* Border for all input fields */
+    border-radius: 5px;
+}
+
+textarea.ip {
+    height: 150px; /* Set a specific height for the textarea to make it rectangular */
+    resize: vertical; /* Allow vertical resizing */
+}
+
